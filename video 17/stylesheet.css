@@ -1,0 +1,30 @@
+.red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+div.red > article > p{
+    background-color: black;
+    color: blueviolet;
+}
+div#green p{
+    background-color: yellowgreen;
+    color: yellow;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a:visited{
+    color: blue;
+}
+a:link{
+    color: green;
+}
+a:active{
+    background-color: aqua;
+}
+a:hover{
+    background-color: yellow;
+}

@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: bisque;
+    background-color: aqua;
+    text-emphasis-color:inherit;
+    text-shadow: 1cm;
+}
+body{
+    background-color: antiquewhite;
+}
+div{background-color: white;}

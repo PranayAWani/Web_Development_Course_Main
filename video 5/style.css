@@ -1,0 +1,19 @@
+td,image{
+    border-color: black;
+    border-width: 1;
+    border-style: dotted;
+}
+thead{
+    background-color: aqua;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+tbody{
+    background-color: blanchedalmond;
+    text-align-last: center;
+}
+tfoot{
+    background-color: crimson;
+    text-align: center;
+}
