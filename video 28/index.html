@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Postiton</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 433px;
+            width: 80vw;
+            margin: 3px;
+            padding: 2px;
+            border: 2px solid black;
+        }
+        .box1{
+            background-color: aqua;
+            /* position: absolute;
+            top: 0px;
+            left: 3px; */
+            position: sticky;
+            top: 0px;
+            height: 111px;
+            width: 100%;
+            margin: 0;
+padding: 0;
+                }
+        .box2{
+            background-color: azure;
+            /* position: absolute; */
+            /* top: -34px;
+            z-index: -10;
+            left: 114px; */
+                }
+        .box3{
+            background-color: antiquewhite;
+            position: fixed;
+            bottom: 0vw;
+            left: 8vw;
+            height: 111px;
+            width: 80vw;
+                }
+        .box4{
+            background-color: purple;
+                }
+            .parent{
+                border: 2px solid purple;
+                /* position: absolute; */
+                padding: 34px;
+                margin: 43px;
+                /* exception transform filter and perspective property 
+                if this properties are use then also will asct has a position property */
+            }
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+    </div>
+</body>
+</html>
