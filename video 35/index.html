@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selectors</title>
+    <style>
+/* .box:first-child{
+    background-color: yellow;
+}
+.box::first-line{
+    color: green;
+} */
+.boxes::after{
+    content: "pranay is learning web development";
+    color: blue;
+}
+.boxes::before{
+    content: "pranay is a good boy";    
+    color: red
+}
+::selection{
+    color :red;
+    background-color: aqua;
+}
+.box::first-letter{
+    font-size: xx-large;
+    color: peru;
+    font-weight: bolder;
+
+}
+input::placeholder{
+    color: red;
+    font-size: large;
+}
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey I am a box </div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" name="" id="" placeholder="Enter your name">
+    </div>
+</body>
+</html>
