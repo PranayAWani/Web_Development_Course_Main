@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout designing</title>
+    <style>
+        
+        body {
+            background-color: black;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: pink;
+            height: 7vh;
+            position: sticky;
+            margin: 0;
+            padding: 0;
+            top: 1px;
+            z-index: 2;
+        }
+
+        .bigbox {
+           
+            height: 60vh;
+            background-color: greenyellow;
+            margin: 10px;
+            position: relative;
+
+        }
+
+        .box1 {
+            border: 2px solid white;
+            width: 25vh;
+            height: 25vh;
+            position: absolute;
+            background-color: rgb(255, 191, 0);
+            top: 100px;
+            left: 10vw;
+        }
+
+        .box2 {
+            border: 2px solid white;
+            width: 25vh;
+            height: 25vh;
+            margin: 100px;
+            position: absolute;
+            background-color: aqua;
+            right: 10vw;
+        }
+
+        .text {
+            border: 2px solid white;
+            margin: 20px 50px 250px 50px;
+            padding: 100px;
+            font-size: xx-large;
+            text-align: center;
+            border-radius: 25px;
+            color: white;
+            font-weight: bolder;
+
+        }
+
+        .lowerbox {
+            border: 2px solid black;
+            width: 100vw;
+            height: 15vw;
+            background-color: peru;
+            position: stick;
+            bottom: 0;
+        }
+
+        .circle{
+            position: fixed;
+            border: 2px solid white;
+            background-color: chocolate;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            top: 625px;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+        </nav>
+
+    </header>
+    <div class="bigbox">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <div class="text">
+        Welcome to Sigma Web Development Express
+    </div>
+    <div class="circle">
+
+    </div>
+    <footer>
+        <div class="lowerbox"></div>
+    </footer>
+</body>
+
+</html>
