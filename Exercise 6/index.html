@@ -11,6 +11,13 @@
             padding: 0;
         }
 
+        @media only screen and (min-width: 820px) {
+            .containers{
+            display: grid;
+            grid-template-columns: 400px;
+            grid-template-rows: 250px ;
+            margin: 30px 150px;
+        }}
         body {
             font-size: 25px;
         }
@@ -69,6 +76,7 @@
             margin: 50px;
             font-size: large;
             margin-left: 471px;
+            cursor: pointer;
         }
 
         .logo {
@@ -99,10 +107,12 @@
             background-color: black;
             color: white;
         }
-        h3:first-child{
+
+        h3:first-child {
             margin: 100px;
         }
-        .containers{
+
+        .containers {
             display: grid;
             grid-template-columns: 400px 400px 400px;
             grid-template-rows: 250px 250px 250px;
@@ -110,39 +120,48 @@
             column-gap: 25px;
             row-gap: 25px;
         }
-        .item{
+
+        .item {
             background-color: rgb(215, 215, 215);
             text-align: center;
             font-weight: bold;
             padding-top: 25px;
 
         }
-        .green{
+
+        .green {
             background-color: greenyellow;
             text-align: center;
             align-self: flex-end;
             position: relative;
             z-index: 1;
+            cursor: pointer;
             margin: 25px;
             margin-top: 10px;
             width: 250px;
             padding: 10px 5px;
         }
-        .blue{
+
+        .blue {
             background-color: rgba(0, 213, 255, 0.842);
             text-align: center;
             align-self: flex-end;
             position: relative;
             z-index: 1;
             margin: 25px;
-            
+            cursor: pointer;
             width: 250px;
             padding: 10px 5px;
         }
-        .name{
+
+        .name {
             font-size: small;
             font-weight: lighter;
             margin-top: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
@@ -167,110 +186,110 @@
             editor.
         </div>
         <div>
-            <button> DOWNLOAD MAC OR LINUX VERSION</button>
+            <button> <a href="https://www.ultraedit.com/downloads/uex-thank-you">DOWNLOAD MAC OR LINUX VERSION</a></button>
         </div>
         <span class="logo">UE</span>
         <span class="download">Download UltraEdit</span><span class="Down">v2023.1(released 08/16/2023)| Hotfix</span>
         <div class="containers">
             <div class="item">
                 <div class="line1">English</div>
-            <div class="name"></div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name"></div>
+                <div class="downloadbut32">
+                    <button class="blue"> <a href="https://downloads.ultraedit.com/main/ue/win/ue_english.exe?_gl=1*r49kc4*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"> <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*wki3gb*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">Deutsch</div>
-            <div class="name">German</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">German</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_german.exe?_gl=1*1xqsnyq*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_german_64.exe?_gl=1*12rrltz*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">Italiano</div>
-            <div class="name">Italian</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Italian</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">Español</div>
-            <div class="name">Spanish</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Spanish</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">français</div>
-            <div class="name">French</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">French</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">Português brasileiro</div>
-            <div class="name">Brazilian Portuguese</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Brazilian Portuguese</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">日本</div>
-            <div class="name">Japanese</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Japanese</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">한국어</div>
-            <div class="name">Korean</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Korean</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">中国</div>
-            <div class="name">Chinese</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Chinese</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
             <div class="item">
                 <div class="line1">中國</div>
-            <div class="name">Traditional Chinese</div>
-            <div class="downloadbut32">
-                <button class="blue">Download 32-bit</button>
-            </div>
-            <div class="downloadbut64">
-                <button class="green">Download 64-bit</button>
-            </div>
+                <div class="name">Traditional Chinese</div>
+                <div class="downloadbut32">
+                    <button class="blue"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian.exe?_gl=1*1ugd0nx*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 32-bit</a></button>
+                </div>
+                <div class="downloadbut64">
+                    <button class="green"><a href="https://downloads.ultraedit.com/main/ue/win/ue_italian_64.exe?_gl=1*1ejoz4x*_ga*MTIzOTUwOTQ1OC4xNzAxOTI4MzM2*_ga_QNXHVTPWNS*MTcwMjAwOTIyMi42LjAuMTcwMjAwOTIyMi42MC4wLjA.">Download 64-bit</a></button>
+                </div>
             </div>
         </div>
 </body>
