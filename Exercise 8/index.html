@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container {
+            background-color: rgb(146, 230, 230);
+            height: 100vh;
+            width: 80vw;
+            display: flex;
+
+            flex-direction: column;
+        }
+
+        .box {
+            height: 75px;
+            width: 75px;
+            background-color: red;
+            border-radius: 70px;
+            animation: x 10s ease-out ;
+
+        }
+        .box2 {
+            height: 10vh;
+            width: 10vw;
+            background-color: burlywood;
+            display: flex;
+            flex-direction: row;
+            align-self: flex-end;
+            position: fixed;
+            bottom: 0;
+        }
+        @keyframes x {
+            20% {
+                transform: translateX(25vw) translateY(10vh);
+            }
+
+            40% {
+                transform: translateX(45vw) translateY(20vh);
+            }
+
+            60% {
+                transform: translateX(60vw) translateY(50vh);
+            }
+
+            80% {
+                transform: translateX(70vw) translateY(80vh);
+            }
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+
+</html>

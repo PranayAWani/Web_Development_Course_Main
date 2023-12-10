@@ -1,0 +1,118 @@
+.logo {
+    width: 40px;
+    height: 23px;
+}
+
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.right ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 9px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 23px;
+    margin: 70px;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+.first span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first div {
+    font-size: 23px;
+    width: 60vw;
+    text-align: center;
+}
+
+.btn  {
+    background-color: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+
+.flex {
+    display: flex;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    max-width: 86vw;
+    margin: auto;
+}
+.itemlang{
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 34px ;
+}
+.item{
+    padding: 23px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: ;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.download :nth-child(2){
+    font-size: 23px;
+
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 1145px)
+{
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 12px;
+       text-align: center;
+    }
+    
+}

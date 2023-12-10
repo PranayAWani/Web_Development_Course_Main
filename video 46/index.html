@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animation</title>
+    <style>
+        .container {
+            background-color: green;
+            height: 80vh;
+            width: 80vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            width: 340px;
+            height: 45px;
+            background-color: aqua;
+            animation: Pranaykaanimation 5s ease-in-out 1s;
+            margin: 10px;
+        }
+
+        .box2 {
+            width: 340px;
+            height: 45px;
+            background-color: aqua;
+            animation: pranay2 5s ease-in-out 1s;
+            margin: 10px;
+        }
+
+        @keyframes Pranaykaanimation {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: yellow;
+                transform: translateX(90px) translateY(250px) scale(4);
+            }
+        }
+
+        @keyframes pranay2 {
+            0% {
+                transform: rotate(100deg);
+            }
+
+            20% {
+                transform: rotate(200deg);
+            }
+
+            40% {
+                transform: rotate(220deg);
+            }
+
+            60% {
+                transform: rotate(400deg);
+            }
+
+            80% {
+                transform: rotate(300deg);
+            }
+
+            100% {
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+
+</html>
