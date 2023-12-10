@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: gray;
+}
+
+.main {
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.main .box {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+    height: 100vh;
+    width: max(1500px, 100vw);
+}
+
+nav {
+    height: 62px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 25px;
+    justify-content: space-between;
+}
+
+button {
+
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 23px;
+    justify-self: center;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+.sign {
+    background-color: red;
+    cursor: pointer;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    color: red;
+    width: 214px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 75px;
+
+}
+
+.hero span:nth-child(1) {
+    font-weight: 900;
+    font-size: 72px;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    width: 1120px;
+    gap: 10px;
+    top: 20px;
+
+}
+
+.hero span:nth-child(2) {
+    font-size: 34px;
+    position: relative;
+    text-align: center;
+    width: 800px;
+    margin: 10px;
+}
+
+.hero span:nth-child(3) {
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    width: 1000px;
+    margin: 29px;
+
+}
+
+.email {
+    width: 450px;
+    background-color: black;
+    padding: 20px 10px;
+    border: 1px solid white;
+    font-size: 34px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+
+.get {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 20px 10px;
+    font-size: 34px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    width: 320px;
+    text-align: start;
+}
+
+.containers {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    margin: auto;
+}
+
+.container1 .left span:nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container1 .left span:nth-child(2) {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container2 .right span:nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container2 .right span:nth-child(2) {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container3 .left span:nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container3 .left span:nth-child(2) {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container4 .right span:nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container4 .right span:nth-child(2) {
+    font-size: 35px;
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container5 {
+    display: inline;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.boxes {
+    display: flex;
+    background-color: grey(118, 100, 100);
+    height: 75px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    font-size: xx-large;
+    justify-content: start;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    color: white;
+    display: flexbox;
+    margin-top: 10px;
+    padding: 25px;
+    font-size: 25px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px ;
+    
+}
+.net{
+    font-size: 20px;
+    color: grey;
+}
+.que{
+    font-size: 25px;
+    padding: 15px;
+    text-align: start;
+
+}
+a{
+    
+    color: white;
+}
