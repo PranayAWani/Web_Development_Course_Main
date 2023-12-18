@@ -1,19 +1,157 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
-.main{
+
+body {
+    background-color: black;
+}
+
+.main {
     background-image: url("background.jpg");
-    height: 80vh;
+    height: 70vh;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
     position: relative;
 }
-.main .box{
-    height: 100vh;
+
+.main .box {
+    height: 70vh;
     width: 100%;
     opacity: 0.44;
     background-color: black;
     position: absolute;
     top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.box {
+    color: white;
+}
+
+.hero {
+    font-family: 'Martel', serif;
+    height: calc(100% - 62px);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    padding: 0 30px;
+
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation {
+    height: 11px;
+    background-color: rgb(46, 42, 44);
+    padding: 0px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.345);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.btn-red {
+    background-color: red;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    color: white;
+    border-radius: 7px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 900;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 28vw;
 }
