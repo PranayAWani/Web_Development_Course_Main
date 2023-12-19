@@ -139,26 +139,52 @@ nav button {
     align-items: center;
     height: 80vh;
 }
-.first span:nth-child(1){
+@media  screen and (max-width: 1300px) {
+    
+    .first{
+        flex-wrap: wrap;
+    }
+.second{
+    flex-wrap: wrap;
+}
+.third{
+    flex-wrap: wrap;
+}
+.fourth{
+    flex-wrap: wrap;
+}
+}
+
+.first span:nth-child(1) {
     font-weight: 900;
     font-size: 52px;
     padding: 10px;
+    display: block;
 }
-.first span:nth-child(2){
+
+.first span:nth-child(2) {
     font-weight: lighter;
     font-size: 34px;
 }
+
 .secimg {
     position: relative;
 }
 
 .secimg img {
-    width: 35vw;
+    width: 555px;
     position: relative;
     z-index: 10;
 }
 
 .secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 32vw;
+}
+
+.secimg2 video {
     position: absolute;
     top: 51px;
     right: 0;
@@ -174,13 +200,18 @@ nav button {
     justify-content: center;
     align-items: center;
     height: 80vh;
+   
 }
-.second span:nth-child(1){
+
+.second span:nth-child(1) {
     font-weight: 900;
     font-size: 52px;
     padding: 10px;
+    display: block;
 }
-.second span:nth-child(2){
+
+
+.second span:nth-child(2) {
     font-weight: lighter;
     font-size: 34px;
 }
@@ -194,15 +225,27 @@ nav button {
     justify-content: center;
     align-items: center;
     height: 80vh;
+   
 }
-.third span:nth-child(1){
+
+.third span:nth-child(1) {
     font-weight: 900;
     font-size: 52px;
     padding: 10px;
+    display: block;
 }
-.third span:nth-child(2){
+
+
+.third span:nth-child(2) {
     font-weight: lighter;
     font-size: 34px;
+}
+
+.secimg2 video {
+    position: absolute;
+    top: 40px;
+    right: 72px;
+    width: 22vw;
 }
 
 .fourth {
@@ -214,13 +257,18 @@ nav button {
     justify-content: center;
     align-items: center;
     height: 80vh;
+  
 }
-.fourth span:nth-child(1){
+
+.fourth span:nth-child(1) {
     font-weight: 900;
     font-size: 52px;
     padding: 10px;
+    display: block;
 }
-.fourth span:nth-child(2){
+
+
+.fourth span:nth-child(2) {
     font-weight: lighter;
     font-size: 34px;
 }
@@ -235,12 +283,74 @@ nav button {
     align-items: center;
     height: 80vh;
 }
-.fifth span:nth-child(1){
+
+.fifth span:nth-child(1) {
     font-weight: 900;
     font-size: 52px;
     padding: 10px;
 }
-.fifth span:nth-child(2){
+
+.fifth span:nth-child(2) {
     font-weight: lighter;
     font-size: 34px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: gray;
+    color: white;
+    max-width: 60vw;
+    margin: 23px auto;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 2sec ease ease-out;
+}
+
+.faqbox:hover {
+    background-color: rgb(50, 50, 50);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+
+footer .questions {
+    padding: 34px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    gap:  14px;
+}
+
+footer a {
+    color: white;
+    font-size: 14px;
 }
