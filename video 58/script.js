@@ -20,4 +20,10 @@ console.log("The sum of these given number is: ",result1);
 console.log("The sum of these given number is: ",result2);
 console.log("The sum of these given number is: ",result3);
 
-const funct1
+//arrow function
+const func1= (x)=>{
+    console.log("i am an arrow function",x);
+}
+func1(34)
+func1(43)
+func1(56)
