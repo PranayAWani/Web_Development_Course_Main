@@ -10,8 +10,8 @@ console.log(a[5]);
 
 console.log(a.length);
 
-let real_name ="Pranay"
-let friend ="Nishant"
+let real_name =" Pranay"
+let friend =" Nishant"
 
 console.log("hey hi my name is "+real_name +" and my friends name is "+ friend);
 console.log(`hey hi my name is &{real_name} and my friends name is &{friend}`); 
@@ -29,4 +29,4 @@ console.log(a.replace ("Pranay","Vibhor"));
 
 // concard
 
-console.log(a.concat(friend));
+console.log(a.concat(friend," Shlok"," Kavish"));
