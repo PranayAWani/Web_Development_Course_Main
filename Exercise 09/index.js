@@ -34,7 +34,6 @@ if(random<0.1){
         case d:
             print(a**b);
             break;
-
         default:
             break;
     }
