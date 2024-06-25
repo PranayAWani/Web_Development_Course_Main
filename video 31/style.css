@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* @media only screen and (max-width: 450px ) {
+    
+} */
+
+
+
+body{
+    background-color: aqua;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 5px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
