@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Graph Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Graph Visualization</h1>
+    </header>
+    <main>
+        <input type="file" id="csv-file-input" accept=".csv" />
+        <div class="graphs">
+            <div class="graph-container">
+                <h3>Graph 1: Carbon Monoxide</h3>
+                <canvas id="graph1"></canvas>
+            </div>
+            <div class="graph-container">
+                <h3>Graph 2: Carbon Dioxide</h3>
+                <canvas id="graph2"></canvas>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Graph Visualization. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
