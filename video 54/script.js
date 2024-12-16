@@ -1,14 +1,21 @@
-console.log("Hey this is a tutorial 55 of sigma web development coures")
-var a=5;
-var b=6;
-var c="harry";
-var d=prompt("Enter a NUmber");
-console.log("Your number is " + a)
+alert("Hello World");
 
-var istrue =confirm("Are you sure u want to blast the cp");
-if(istrue){
-    console.log("Your comouter is blasting")
+console.log("Code is running");
+console.log("Code is alaso running");
+console.log("Code is running like a wow");
+
+var a = prompt("Enter your number");
+var isTrue = confirm("are you sure you want to leave this page and blast our computer");
+
+if(isTrue){
+    console.log("Computer is Blasting");
 }
+
 else{
-    console.log("Your computer is not blasting")
+    console.log("Computer is not blasting");
 }
+
+console.log("Your number is " +a);
+
+document.title = "Hey i am good"
+document.body.style.backgroundColor = "red";
